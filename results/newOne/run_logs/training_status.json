@@ -1,0 +1,87 @@
+{
+    "Move Behavior": {
+        "checkpoints": [
+            {
+                "steps": 9999975,
+                "file_path": "results\\newOne\\Move Behavior\\Move Behavior-9999975.onnx",
+                "reward": 25934.58896891276,
+                "creation_time": 1707021866.4595015,
+                "auxillary_file_paths": [
+                    "results\\newOne\\Move Behavior\\Move Behavior-9999975.pt"
+                ]
+            },
+            {
+                "steps": 14999977,
+                "file_path": "results\\newOne\\Move Behavior\\Move Behavior-14999977.onnx",
+                "reward": 26291.22098795573,
+                "creation_time": 1707025195.7755084,
+                "auxillary_file_paths": [
+                    "results\\newOne\\Move Behavior\\Move Behavior-14999977.pt"
+                ]
+            },
+            {
+                "steps": 19999952,
+                "file_path": "results\\newOne\\Move Behavior\\Move Behavior-19999952.onnx",
+                "reward": 26274.411682128906,
+                "creation_time": 1707028539.2204647,
+                "auxillary_file_paths": [
+                    "results\\newOne\\Move Behavior\\Move Behavior-19999952.pt"
+                ]
+            },
+            {
+                "steps": 24999961,
+                "file_path": "results\\newOne\\Move Behavior\\Move Behavior-24999961.onnx",
+                "reward": 26093.94790649414,
+                "creation_time": 1707031891.8579805,
+                "auxillary_file_paths": [
+                    "results\\newOne\\Move Behavior\\Move Behavior-24999961.pt"
+                ]
+            },
+            {
+                "steps": 27156720,
+                "file_path": "results\\newOne\\Move Behavior\\Move Behavior-27156720.onnx",
+                "reward": null,
+                "creation_time": 1707033338.7973306,
+                "auxillary_file_paths": [
+                    "results\\newOne\\Move Behavior\\Move Behavior-27156720.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 27156720,
+            "file_path": "results\\newOne\\Move Behavior.onnx",
+            "reward": null,
+            "creation_time": 1707033338.7973306,
+            "auxillary_file_paths": [
+                "results\\newOne\\Move Behavior\\Move Behavior-27156720.pt"
+            ]
+        }
+    },
+    "War Behavior": {
+        "checkpoints": [
+            {
+                "steps": 1697311,
+                "file_path": "results\\newOne\\War Behavior\\War Behavior-1697311.onnx",
+                "reward": 0.0,
+                "creation_time": 1707033338.830458,
+                "auxillary_file_paths": [
+                    "results\\newOne\\War Behavior\\War Behavior-1697311.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1697311,
+            "file_path": "results\\newOne\\War Behavior.onnx",
+            "reward": 0.0,
+            "creation_time": 1707033338.830458,
+            "auxillary_file_paths": [
+                "results\\newOne\\War Behavior\\War Behavior-1697311.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cpu"
+    }
+}
