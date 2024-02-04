@@ -9,8 +9,7 @@ public class MoveAgent : Agent
 {
     [SerializeField] private Transform target;
 
-    [SerializeField] private Transform machineSpawn;
-    [SerializeField] private Transform targetSpawn;
+    [SerializeField] private List<Transform> spawnPoints;
     [SerializeField] private float distance;
  
     // Start is called before the first frame update
@@ -21,10 +20,17 @@ public class MoveAgent : Agent
 
     private void SpawnMachineAndTarget()
     {
-        transform.position = machineSpawn.position;
-        transform.rotation = machineSpawn.rotation;
+        Transform agentSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
+        transform.position = agentSpawnPoint.position;
+        transform.rotation = agentSpawnPoint.rotation;
 
-        target.position = targetSpawn.position;
+        Transform targetSpawnPoint;
+        do
+        {
+            targetSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
+        } while (targetSpawnPoint == agentSpawnPoint);
+
+        target.position = targetSpawnPoint.position;
     }
     
     public override void CollectObservations(VectorSensor sensor)
