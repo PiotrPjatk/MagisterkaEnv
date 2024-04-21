@@ -350,14 +350,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1678016599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e9dd27fa57f8cb46aa468f912018188, type: 3}
+  m_Script: {fileID: 11500000, guid: 55e674d50f288594f9f41a1bb51c9e81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualization: {fileID: 11400000, guid: d45c789450ec3d646a60e10c7111a851, type: 2}
-  mapSize:
-    x: 20
-    y: 20
-  seed: 123
-  pickLastProbability: 0.5
-  openDeadEndProbability: 0.5
-  openArbitraryProbability: 0.25
+  visualization: {fileID: 11400000, guid: 27d757de3df71024b9a214d34402a392, type: 2}
+  mazeSize:
+    x: 10
+    y: 10
+  seed: 0
+  pickLastProbability: 0.241
+  openDeadEndProbability: 0.781
+  openArbitraryProbability: 0.673
