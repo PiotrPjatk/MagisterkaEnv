@@ -59,40 +59,27 @@ public class MoveAgent : Agent
         float moveX = actions.ContinuousActions[0]; // Horizontal movement
         float moveZ = actions.ContinuousActions[1]; // Vertical movement
         
-        // Calculate the distance to the target before moving
         float distanceToTargetBeforeMovement = Vector3.Distance(transform.position, target.position);
-
-        // Since the continuous actions can range from -1 to 1, we can use them directly
-        // to determine the direction and magnitude of movement
+        
         Vector3 movement = new Vector3(moveX, 0f, moveZ).normalized;
-
-        // Apply the movement
         transform.position += movement * moveSpeed * Time.fixedDeltaTime;
 
-        // Calculate the distance to the target after moving
         float distanceToTargetAfterMovement = Vector3.Distance(transform.position, target.position);
-
-        // Check if the agent got closer to the target
-        if (distanceToTargetAfterMovement < distanceToTargetBeforeMovement)
-        {
-            // Calculate how much closer the agent got
-            float distanceReduction = distanceToTargetBeforeMovement - distanceToTargetAfterMovement;
-
-            // Reward the agent based on the reduction in distance
-            // You can adjust the reward scaling factor as needed
-            float reward = distanceReduction * rewardScalingFactor;
-            Debug.Log(reward);
-            AddReward(reward);
-        }
+        float distanceReduction = distanceToTargetBeforeMovement - distanceToTargetAfterMovement;
+        
+        float reward = distanceReduction * rewardScalingFactor;
+        Debug.Log(reward);
+        AddReward(reward);
+        
     }
 
 
     
     void Update()
     {
-        float distanceToTarget = Vector3.Distance(transform.position, target.position);
+        // float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
-        SetReward(100 - distanceToTarget);
+        // SetReward(100 - distanceToTarget);
 
         // if (distanceToTarget < distance)  
         // {

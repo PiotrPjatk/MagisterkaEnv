@@ -2,58 +2,58 @@
     "Move Behavior": {
         "checkpoints": [
             {
-                "steps": 449967,
-                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-449967.onnx",
-                "reward": 7330.056643383844,
-                "creation_time": 1713673796.2463112,
+                "steps": 849987,
+                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-849987.onnx",
+                "reward": 1.739557944276525,
+                "creation_time": 1713705114.7342782,
                 "auxillary_file_paths": [
-                    "results\\ppo\\Move Behavior\\Move Behavior-449967.pt"
+                    "results\\ppo\\Move Behavior\\Move Behavior-849987.pt"
                 ]
             },
             {
-                "steps": 499952,
-                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-499952.onnx",
-                "reward": 11293.389177449544,
-                "creation_time": 1713676126.6961718,
+                "steps": 899997,
+                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-899997.onnx",
+                "reward": 1.4955191845796547,
+                "creation_time": 1713705507.204352,
                 "auxillary_file_paths": [
-                    "results\\ppo\\Move Behavior\\Move Behavior-499952.pt"
+                    "results\\ppo\\Move Behavior\\Move Behavior-899997.pt"
                 ]
             },
             {
-                "steps": 549938,
-                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-549938.onnx",
-                "reward": 6088.988731974647,
-                "creation_time": 1713678503.9700263,
+                "steps": 949996,
+                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-949996.onnx",
+                "reward": 1.5640861191495112,
+                "creation_time": 1713705884.510049,
                 "auxillary_file_paths": [
-                    "results\\ppo\\Move Behavior\\Move Behavior-549938.pt"
+                    "results\\ppo\\Move Behavior\\Move Behavior-949996.pt"
                 ]
             },
             {
-                "steps": 599968,
-                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-599968.onnx",
-                "reward": 23836.11981201172,
-                "creation_time": 1713681001.759645,
+                "steps": 999997,
+                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-999997.onnx",
+                "reward": 0.8820465299367166,
+                "creation_time": 1713706257.249988,
                 "auxillary_file_paths": [
-                    "results\\ppo\\Move Behavior\\Move Behavior-599968.pt"
+                    "results\\ppo\\Move Behavior\\Move Behavior-999997.pt"
                 ]
             },
             {
-                "steps": 647807,
-                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-647807.onnx",
-                "reward": null,
-                "creation_time": 1713683460.4161515,
+                "steps": 1007343,
+                "file_path": "results\\ppo\\Move Behavior\\Move Behavior-1007343.onnx",
+                "reward": 0.033852776177495505,
+                "creation_time": 1713706312.7193556,
                 "auxillary_file_paths": [
-                    "results\\ppo\\Move Behavior\\Move Behavior-647807.pt"
+                    "results\\ppo\\Move Behavior\\Move Behavior-1007343.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 647807,
+            "steps": 1007343,
             "file_path": "results\\ppo\\Move Behavior.onnx",
-            "reward": null,
-            "creation_time": 1713683460.4161515,
+            "reward": 0.033852776177495505,
+            "creation_time": 1713706312.7193556,
             "auxillary_file_paths": [
-                "results\\ppo\\Move Behavior\\Move Behavior-647807.pt"
+                "results\\ppo\\Move Behavior\\Move Behavior-1007343.pt"
             ]
         }
     },
