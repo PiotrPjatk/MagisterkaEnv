@@ -16,7 +16,6 @@ public class MoveAgent : Agent
 
     [SerializeField] private float rewardScalingFactor = 1;
 
-    // Start is called before the first frame update
     public override void OnEpisodeBegin()
     {
         MapGenerator.DestroyMaze();
